@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+input {
+    max-width: 400px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form,
+.users {
+    background: linear-gradient(MediumOrchid, RebeccaPurple);
+}
+.form,
+.mainUsers,
+.user,
+.users {
+    width: 430px;
+}
+.form {
+    height: 300px;
+}
+.container {
+    margin: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+p {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+input {
+    display: block;
+    height: 30px;
+    margin: 15px;
+    outline: none;
+    border: none;
+    padding: 0px 5px;
+}
+
+input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+
+.btn {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainUsers,
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user {
+    margin: 10px;
+}
+
+.user-outer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delete,
+.change {
+    border: none;
+    height: 40%;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.delete {
+    background: red;
+}
+
+.change {
+    background: green;
+}
+
+.delete:active,
+.change:active {
+    transform: scale(0.95);
+}
